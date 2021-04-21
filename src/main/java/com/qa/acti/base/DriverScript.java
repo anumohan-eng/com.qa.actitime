@@ -54,6 +54,7 @@ public void initApplication()
 	String url = prop.getProperty("qaurl");
 	driver.get(url);
 }
+	//this method is to close the application
 	public void closeApplication()
 	{
 		driver.close();
